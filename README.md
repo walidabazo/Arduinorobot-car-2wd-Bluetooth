@@ -3,9 +3,9 @@ Arduino robot car 2 wheels - controlled by Bluetooth
 
 [![Watch the video](https://img.youtube.com/vi/ILcZXvUB5gU/0.jpg)](https://youtu.be/ILcZXvUB5gU)
 
-          if you need more information 
+        //  if you need more information https://blog.edafait.com/Post?ID=134
           
-          https://blog.edafait.com/Post?ID=134
+          //https://blog.edafait.com/Post?ID=134
           
           #include "BluetoothSerial.h"
           #define ENA   14          // Enable/speed motors Right        GPIO14(D5)
@@ -46,7 +46,7 @@ Arduino robot car 2 wheels - controlled by Bluetooth
          pinMode(red_light, OUTPUT); 
          pinMode(front_light, OUTPUT);
           }
-
+    //  if you need more information https://blog.edafait.com/Post?ID=134
          void loop() {
  
               if (SerialBT.available())
@@ -242,7 +242,7 @@ Arduino robot car 2 wheels - controlled by Bluetooth
               digitalWrite(IN_4, HIGH);
               analogWrite(ENB, speedCar/speed_Coeff);
               }
-
+    //  if you need more information https://blog.edafait.com/Post?ID=134
         void goBackRight(){ 
               digitalWrite(front_light,LOW );    
               digitalWrite(red_light, HIGH);
