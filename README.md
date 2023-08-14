@@ -5,7 +5,6 @@ Arduino robot car 2 wheels - controlled by Bluetooth
 
         //  if you need more information https://blog.edafait.com/Post?ID=134
           
-          //https://blog.edafait.com/Post?ID=134
           
           #include "BluetoothSerial.h"
           #define ENA   14          // Enable/speed motors Right        GPIO14(D5)
